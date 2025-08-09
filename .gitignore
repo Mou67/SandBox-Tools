@@ -1,0 +1,29 @@
+# Windows Sandbox Dev/Test Toolkit - .gitignore
+
+# Logs
+logs/
+*.log
+
+# Archives / Downloads (temp)
+*.zip
+*.7z
+*.7z.exe
+*.tar
+*.tar.gz
+
+# PowerShell transient
+*.ps1.transcript.*
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Python (if later added)
+__pycache__/
+*.pyc
+
+# Node (if later added)
+node_modules/
+
+# VS Code config (optional keep or ignore)
+.vscode/

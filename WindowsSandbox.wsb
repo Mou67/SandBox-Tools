@@ -1,0 +1,19 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Users\moric\Documents\Virtual Maschine Share Files\WindowsSandboxNotepadDark</HostFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command><![CDATA[powershell.exe -NoExit -ExecutionPolicy Bypass -Command "Unblock-File -Path 'C:\Users\WDAGUtilityAccount\Desktop\WindowsSandboxNotepadDark\bootstrap.ps1' -ErrorAction SilentlyContinue; Set-ExecutionPolicy Bypass -Scope Process -Force; & 'C:\Users\WDAGUtilityAccount\Desktop\WindowsSandboxNotepadDark\bootstrap.ps1'; Write-Host '--- Bootstrap fertig ---' -ForegroundColor Cyan; Read-Host 'Druecke Enter zum Schliessen'" ]]></Command>
+  </LogonCommand>
+  <VGpu>Disable</VGpu>
+  <Networking>Default</Networking>
+  <AudioInput>Disable</AudioInput>
+  <VideoInput>Disable</VideoInput>
+  <ProtectedClient>Disable</ProtectedClient>
+  <PrinterRedirection>Disable</PrinterRedirection>
+  <ClipboardRedirection>Enable</ClipboardRedirection>
+  <MemoryInMB>4096</MemoryInMB>
+</Configuration>
