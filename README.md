@@ -90,5 +90,3 @@ MIT – siehe `LICENSE`.
 Issues / PRs willkommen: Weitere portable Tools, VS Code Integration, automatisierte Tests.
 
 ---
-
-Wenn du weitere Tools integriert haben möchtest, einfach melden.
