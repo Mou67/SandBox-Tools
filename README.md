@@ -16,7 +16,7 @@ Dieses Setup erstellt eine Windows Sandbox Konfiguration (.wsb), die beim Start:
 2. Diesen Ordner als beschreibbares Mapping einbindet – nur hier bzw. im gemappten Ordner bleibt etwas erhalten (auf Host-Seite).
 
 ## Dateien
-- `SandboxNotepadDark.wsb` – Sandbox Konfigurationsdatei (Start doppelklicken)
+- `WindowsSandbox.wsb` – Sandbox Konfigurationsdatei (Start doppelklicken)
 - `bootstrap.ps1` – PowerShell Script mit allen Installationslogiken und Schaltern
 
 ## Quick Start
